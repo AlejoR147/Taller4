@@ -1,0 +1,79 @@
+Dia 1:
+  374  mkdir Taller4_000558741
+  375  cd Taller4_000558741/
+  376  touch confidencial.sh bitacora.txt
+  377  ls
+  378  nano confidencial.sh 
+  379  history
+  380  chmod 000 confidencial.sh 
+  381  cat confidencial.sh 
+  382  nano confidencial.sh 
+  383  ./confidencial.sh 
+  384  nano bitacora.txt 
+  385  ls
+  386  touch evidencias.txt
+  387  nano bitacora.txt 
+  388  mkdir CajaFuerte
+  389  chmod 777 CajaFuerte/
+  390  ls -l
+  391  cd CajaFuerte/
+  392  touch oro.txt
+  393  chmod 400 oro.txt 
+  394  ls -l
+  395  cd ..
+  396  chmod 555 CajaFuerte/
+  397  rm ./CajaFuerte/oro.txt 
+  398  cd CajaFuerte/
+  399  ls
+  400  rm oro.txt 
+  401  cd ..
+  402  nano bitacoa
+  403  ls
+  404  nano bitacora.txt 
+  405  nano perfil_sistema.sh
+  406  ./perfil_sistema.sh 
+  407  chmod 764 perfil_sistema.sh 
+  408  ./perfil_sistema.sh 
+  409  git init
+  410  git config --global user.name "AlejoR147"
+  411  git config --global user.email "ronan.roman10@gmail.com"
+  412  git remote add https://github.com/AlejoR147/Taller4.git
+  413  ls -a
+  414  nano perfil_sistema.sh
+  415  ./perfil_sistema.sh 
+  416  ls
+  417  touch datos1.txt datos2.txt notas.txt
+  418  ls 
+  419  nano organizador.sh
+  420  ./ organizador.sh 
+  421  ./organizador.sh 
+  422  chmod 764 organizador.sh 
+  423  ./organizador.sh 
+  424  nano organizador.sh
+  425  git push -u origin master
+  426  git remote add origin https://github.com/AlejoR147/Taller4.git
+  427  git push -u origin master
+  428  git push -u origin main
+  429  git add .
+  430  git commit -m "Realizacion de todos los puntos, antes de ejecutar el ultimo script"
+  431  git add .
+  432  chmod 700 confidencial.sh 
+  433  git add .
+  434  git commit -m "Realizacion de todos los puntos, antes de ejecutar el ultimo script"
+  435  git push -u origin master
+  436  ./organizador.sh 
+  437  ls
+  438  cd Seguridad/
+  439  rm -r Seguridad
+  440  cd ..
+  441  rm -r Seguridad
+  442  nano organizador.sh 
+  443  git add .
+  444  git commit -m "modificacion del script"
+  445  git push -u origin master
+  446  ./organizador.sh 
+  447  ls
+  448  cd seguridad/
+  449  ls -l
+  450  cd ..
+  451  history
