@@ -6,12 +6,14 @@
 
 4- el numero octal fue "640"
     R W X
-7 = 1 1 1
+6 = 1 1 0
 4 = 1 0 0
 0 = 0 0 0 
 
-5- Supongo que los permisos de la carpeta van a ser heredados por todos sus archivos internos, ya que
-al modificar un archivo, tambien estarias editando o modificando la carpeta, por eso lo veo como una jerarquia
-siendo los permisos de la carpeta de un mayor grado que los del archivo, y por eso al momento de borrarlo, me 
-pregunta si en verdad, quiero borrar el archivo que esta protegido contra la escritura.
+5- los permisos de la carpeta afecta directamente a su contenido, ya que al modificar su contenido u archivos,
+tambien estarias editando o modificando la carpeta, por eso lo veo como una jerarquia siendo los permisos 
+de la carpeta de un mayor grado que los del archivo al momento de eliminarlos, y por eso al momento de borrarlo, 
+me pregunta si en verdad, quiero borrar el archivo que esta protegido contra la escritura. Entonces aunque el archivo
+tuviera los permisos para poder borrarlos, si la carpeta no los tiene existiria una resticcion.
+"En Linux, borrar un archivo depende del permiso de escritura del directorio, no de los permisos del archivo."
 
